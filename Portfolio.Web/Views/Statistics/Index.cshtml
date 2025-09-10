@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "İSTATİSTİKLER";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+    <div class="row">
+        <div class="col-md-6 col-xl-3">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="mb-2 f-w-400 text-muted">PROJE SAYISI</h6>
+                    <h4 class="mb-3">
+                        @ViewBag.projectsCount
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="mb-2 f-w-400 text-muted">ADAMLIK DURUMU</h6>
+                    <h4 class="mb-3">
+                        @ViewBag.skillAverage
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="mb-2 f-w-400 text-muted">OKUNMAYAN MESIC</h6>
+                    <h4 class="mb-3">
+                        @ViewBag.unreadMessageCount
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="mb-2 f-w-400 text-muted">ADAMLIK DURUMU</h6>
+                    <h4 class="mb-3">
+                        @ViewBag.lastMessageOwner
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-xl-3">
+            <div class="card social-widget-card bg-primary">
+                <div class="card-body">
+                    <h3 class="text-white m-0">@ViewBag.experienceYear</h3>
+                    <span class="m-t-10">DENEYİM</span>
+                    <i class="fab fa-suitcase"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+            <div class="card social-widget-card bg-info">
+                <div class="card-body">
+                    <h3 class="text-white m-0">@ViewBag.companyCount</h3>
+                    <span class="m-t-10">TOPLAM ŞİRKET</span>
+                    <i class="fab fa-building"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+            <div class="card social-widget-card bg-dark">
+                <div class="card-body">
+                    <h3 class="text-white m-0">@ViewBag.ReviewCount</h3>
+                    <span class="m-t-10">DEĞERLENDİRME</span>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3">
+            <div class="card social-widget-card bg-danger">
+                <div class="card-body">
+                    <h3 class="text-white m-0">@ViewBag.maxReviewOwner</h3>
+                    <span class="m-t-10">EN YÜKSEK DEĞERLENDİRME</span>
+                    <i class="fa fa-user-"></i>
+                </div>
+            </div>
+        </div>
+    </div>

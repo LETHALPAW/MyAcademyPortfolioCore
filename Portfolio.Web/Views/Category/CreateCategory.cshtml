@@ -1,0 +1,14 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "CreateCategory";
+    Layout = "~/Views/AdminLayout/Layout.cshtml";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>KATEGORİ ADI</label>
+        <input type="text" class="form-control" name="CategoryName" placeholder="KATEGORİ ADI GİRİNİZ" required>
+    </div>
+    <button class="btn btn-outline-dark">KAYDET</button>
+</form>
+
