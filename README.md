@@ -1,4 +1,4 @@
-<img width="1896" height="957" alt="1" src="https://github.com/user-attachments/assets/beb91b76-8a4d-44e0-b7e6-5935fdcf766d" />🌐 Kişisel Portföy Projesi (ASP.NET Core MVC)
+
 Bu proje, Benim Kişisel Portfolio Projemdir.
 
 ✨ Başlıca Özellikler
